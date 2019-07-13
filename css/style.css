@@ -1,0 +1,87 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+.bgImage{
+background-image: url('../image/background.png');
+background-size: 100% 100%;
+width: 100%;
+height: 650px;
+background-attachment: fixed;
+}
+.headerSet{
+padding: 220px;
+box-sizing: border-box;
+}
+
+.headerSet h3{
+font-size: 52px;
+}
+.headerSet h1{
+font-size: 82px;
+font-weight: bold;
+}
+
+
+.image-set{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+.content{
+	height: 450px;
+}
+.card{
+	margin-top: 40px
+}
+.port{
+	padding: 30px;
+}
+.footer{
+	margin-top: 20px;
+	letter-spacing: 2px;
+}
+
+/*Media */
+@media(min-width: 992px)
+{
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	
+}
+@media (min-width: 575px) and (max-width: 767px) {
+
+	
+}
+
+
+
+@media (min-width: 460px) and (max-width: 574px) {
+
+	
+}
+
+@media(max-width: 459px)
+{
+
+.headerSet h3{
+font-size: 30px;
+}
+.headerSet h1{
+font-size: 52px;
+font-weight: bold;
+}
+
+
+.abc{
+	height: 600px;
+
+}
+}
+
+
+
